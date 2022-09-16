@@ -1,17 +1,17 @@
 import java.util.*;
 
-public class Prog3 {
+public class isMangoTree {
     public static void main(String[] args) {
-        int r,c,m;
+        int row,col,numOfTrees;
         Scanner sc = new Scanner(System.in);
-        r = sc.nextInt();
-        c = sc.nextInt();
-        m = sc.nextInt();
+        row = sc.nextInt();
+        col = sc.nextInt();
+        numOfTrees = sc.nextInt();
 
-        if(m>=1 && m<=c) {
+        if(numOfTrees >= 1 && numOfTrees <= col) {
             System.out.println("Yes");
         }
-        else if(m%c == 1 && m%c == 0) {
+        else if(numOfTrees%col == 1 && numOfTrees%col == 0) {
             System.out.println("Yes");
         }
         else {
